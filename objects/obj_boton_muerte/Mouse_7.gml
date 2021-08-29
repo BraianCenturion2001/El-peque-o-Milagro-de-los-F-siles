@@ -1,8 +1,12 @@
-/// @description Mata al animal
+ /// @description Mata al animal
 
-if (global.Vida && instance_exists(obj_animal)){
-	global.Vida = false;
-	show_message("El Animal ha Muerto!");
+if (global.Vida){
+	if (global.Comio){
+		global.Vida = false;
+		show_message("El Animal ha Muerto Atragantado!");
+	} else {
+		show_message("El animal aún no ha comido su Planta!");
+	}
 } else {
-	show_message("No hay animal para matar")
+	show_message("No hay animal para matar");
 }

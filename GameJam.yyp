@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},"order":7,},
+    {"id":{"name":"obj_capa_3","path":"objects/obj_capa_3/obj_capa_3.yy",},"order":12,},
     {"id":{"name":"Sprite12","path":"sprites/Sprite12/Sprite12.yy",},"order":6,},
     {"id":{"name":"obj_boton_muerte","path":"objects/obj_boton_muerte/obj_boton_muerte.yy",},"order":4,},
     {"id":{"name":"Capa3","path":"sprites/Capa3/Capa3.yy",},"order":10,},
@@ -10,8 +11,10 @@
     {"id":{"name":"Sprite14","path":"sprites/Sprite14/Sprite14.yy",},"order":8,},
     {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},"order":5,},
     {"id":{"name":"Cartel2","path":"sprites/Cartel2/Cartel2.yy",},"order":15,},
+    {"id":{"name":"obj_capa_1","path":"objects/obj_capa_1/obj_capa_1.yy",},"order":10,},
     {"id":{"name":"obj_boton_lluvia","path":"objects/obj_boton_lluvia/obj_boton_lluvia.yy",},"order":7,},
     {"id":{"name":"Cartel1","path":"sprites/Cartel1/Cartel1.yy",},"order":14,},
+    {"id":{"name":"obj_capa_2","path":"objects/obj_capa_2/obj_capa_2.yy",},"order":11,},
     {"id":{"name":"Capa2","path":"sprites/Capa2/Capa2.yy",},"order":11,},
     {"id":{"name":"obj_planta","path":"objects/obj_planta/obj_planta.yy",},"order":9,},
     {"id":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},"order":0,},
