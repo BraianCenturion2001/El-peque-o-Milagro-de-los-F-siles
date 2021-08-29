@@ -3,10 +3,14 @@
 if (global.Vida){
 	if (global.Comio){
 		global.Vida = false;
+		audio_play_sound(snd_atragantar, 10, false);
 		show_message("El Animal ha Muerto Atragantado!");
 	} else {
-		show_message("El animal aún no ha comido su Planta!");
+		global.Vida = false;
+		audio_play_sound(snd_rayo, 10, false);
+		instance_create_layer(880, 50, "Instances", obj_rayo);
+		show_message("Oh no, le ha caido un rayo encima!");
 	}
 } else {
-	show_message("No hay animal para matar");
+	show_message("El animal ya está muerto!");
 }

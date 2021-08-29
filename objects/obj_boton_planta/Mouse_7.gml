@@ -20,6 +20,7 @@
 				instance_create_layer(300, 180,"Instances", obj_planta);
 				global.Yplanta = 180;
 			}
+			audio_play_sound(snd_plantar, 10, false);
 		 } else { //Si el animal esta muerto
 			 show_message("No hay un animal que se pueda comer la planta");
 		 }
