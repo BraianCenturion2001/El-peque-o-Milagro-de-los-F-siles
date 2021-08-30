@@ -11,12 +11,13 @@ if (!global.Vida) //Si global.Vida es false, el animal muere y cambia de sprite
 		sprite_index = Sprite11;
 		global.Fosil = true;
 	}
-}
+} else {//Pero si esta vivo
+	//Y hay una planta irá a su ubicación y la comerá
+	if(instance_exists(obj_planta))
+	{
+		nuevoy = global.Yplanta+55;
+		move_towards_point(300, nuevoy, 10);
+	}
 
-//Si hay una planta irá a su ubicación y la comerá
-if(instance_exists(obj_planta))
-{
-	nuevoy = global.Yplanta+55;
-	move_towards_point(300, nuevoy, 30);
 }
 

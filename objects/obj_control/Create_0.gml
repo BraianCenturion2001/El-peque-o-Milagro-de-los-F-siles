@@ -1,4 +1,8 @@
- /// @description Crear variables globales del juego
+/// @description Crear variables globales del juego
+if(audio_is_playing(snd_menu)){
+	audio_stop_sound(snd_menu);
+}
+audio_play_sound(snd_game, 50, true);
 
 global.Vida = true; //Sirve para saber si el animal esta vivo o no, por defecto esta vivo
 global.Comio = false; //Sirve para saber si el animal comio o no la planta, por defecto no comio
