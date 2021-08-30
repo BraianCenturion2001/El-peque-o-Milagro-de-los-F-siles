@@ -14,12 +14,9 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_boton_muerte","path":"objects/obj_boton_muerte/obj_boton_muerte.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.99999994,"scaleY":0.99999994,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":32.0,"resourceVersion":"1.0","name":"inst_AA30550","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_45320321","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_boton_planta","path":"objects/obj_boton_planta/obj_boton_planta.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":160.0,"resourceVersion":"1.0","name":"inst_63C8F368","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_boton_lluvia","path":"objects/obj_boton_lluvia/obj_boton_lluvia.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":288.0,"resourceVersion":"1.0","name":"inst_6A4414D","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_boton_pala","path":"objects/obj_boton_pala/obj_boton_pala.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":416.0,"resourceVersion":"1.0","name":"inst_2CD9773E","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":1.03703153,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_45320321","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_animal","path":"objects/obj_animal/obj_animal.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":896.0,"y":224.0,"resourceVersion":"1.0","name":"inst_54B3D793","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_texto_1","path":"objects/obj_texto_1/obj_texto_1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.963636339,"scaleY":1.20382166,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":384.0,"resourceVersion":"1.0","name":"inst_3D50A996","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Capas","tags":[],"resourceType":"GMRInstanceLayer",},
     {"spriteId":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Backgrounds_1","tags":[],"resourceType":"GMRBackgroundLayer",},
@@ -29,11 +26,8 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_45320321","path":"rooms/Sala1/Sala1.yy",},
-    {"name":"inst_AA30550","path":"rooms/Sala1/Sala1.yy",},
-    {"name":"inst_63C8F368","path":"rooms/Sala1/Sala1.yy",},
-    {"name":"inst_6A4414D","path":"rooms/Sala1/Sala1.yy",},
-    {"name":"inst_2CD9773E","path":"rooms/Sala1/Sala1.yy",},
     {"name":"inst_54B3D793","path":"rooms/Sala1/Sala1.yy",},
+    {"name":"inst_3D50A996","path":"rooms/Sala1/Sala1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
